@@ -18,7 +18,7 @@ export default function Homepage() {
     const { user } = useContext(AuthContext);
     let recommendation_list = [];
     
-    const [currentSection, setCurrentSection] = useState("FEATURED")
+    const [currentSection, setCurrentSection] = useState("NEW")
     const header_sections = [
         {
             pageName: "FEATURED",
