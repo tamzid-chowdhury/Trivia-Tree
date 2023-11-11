@@ -423,7 +423,7 @@ export default function Homepage() {
                         </Text>
                     </Box>
                 </Center>
-                <Box w='100%' bgColor="white" borderRadius={5} border="1px" bgColor={bgColor} borderColor={borderColor} boxShadow="md" padding={5}
+                <Box w='100%' borderRadius={5} border="1px" bgColor={bgColor} borderColor={borderColor} boxShadow="md" padding={5}
                     _hover={{bgColor:hoverColor, transition:".15s linear", cursor:"pointer"}}
                     onClick={() => history.push('/prequizpage/' + quiz._id)}
                     transition=".15s linear"    
